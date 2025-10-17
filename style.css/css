@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+    padding: 30px 10px;
+}
+
+header .logo {
+    width: 120px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 30px 60px;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #004aad;
+}
+
+#layanan ul {
+    list-style: none;
+    padding: 0;
+}
+
+#layanan li {
+    background-color: #e6f0ff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tim-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.anggota {
+    text-align: center;
+}
+
+.anggota img {
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Perusahaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="https://via.placeholder.com/120" alt="Logo Perusahaan" class="logo">
+        <h1>PT Maju Jaya Abadi</h1>
+        <p>"Bersama Membangun Masa Depan yang Lebih Baik"</p>
+    </header>
+
+    <!-- Tentang Perusahaan -->
+    <section id="tentang">
+        <h2>investasi</h2>
+        <p><strong>Alamat:</strong> Jl. cangehgar No. 123, palabuhan ratu</p>
+        <p><strong>Tahun Berdiri:</strong> 2017</p>
+        <h3>Visi</h3>
+        <p>Menjadi perusahaan terdepan dalam inovasi dan pelayanan pelanggan.</p>
+        <h3>Misi</h3>
+        <ul>
+            <li>Mengutamakan kualitas dan kepuasan pelanggan.</li>
+            <li>Mendorong pertumbuhan berkelanjutan.</li>
+            <li>Meningkatkan kesejahteraan karyawan.</li>
+        </ul>
+    </section>
+
+    <!-- Layanan -->
+    <section id="layanan">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Konsultasi Bisnis</li>
+            <li>Pelatihan SDM</li>
+            <li>Pengembangan Sistem Informasi</li>
+            <li>Manajemen Proyek</li>
+        </ul>
+    </section>
+
+    <!-- Tim Inti -->
+    <section id="tim">
+        <h2>Tim Inti Kami</h2>
+        <div class="tim-container">
+            <div class="anggota">
+                <img src="img src/syam.jpg" alt="CEO">
+                <p><strong>MUHAMAD DJINGGA NURSYAMSI</strong><br>CEO</p>
+            </div>
+            <div class="anggota">
+                <img src="https://via.placeholder.com/10" alt="Manager">
+                <p><strong>aura azzahra ramadhanty</strong><br>Manager Operasional</p>
+            </div>
+            <div class="anggota">
+                <img src="https://via.placeholder.com/100" alt="IT">
+                <p><strong>sariyantin</strong><br>IT Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p><strong>Telepon:</strong> (022) 1234567</p>
+        <p><strong>Email:</strong> info@majujaya.co.id</p>
+        <p><strong>Jam Kerja:</strong> Senin–Jumat, 08.00–17.00 WIB</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="tahun"></span> PT Maju Jaya Abadi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
